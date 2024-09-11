@@ -61,7 +61,7 @@ fi
 xhost +
 
 docker run -it  $CONTAINER_NAME_CMD\
-           --paltform linux/aarch64\
+           --platform linux/aarch64\
             -v /dev:/dev \
             -v /tmp/.X11-unix:/tmp/.X11-unix \
             -v $HOME/.Xauthority:/root/.Xauthority:rw \
